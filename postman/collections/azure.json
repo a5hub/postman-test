@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "aa1ee845-26e4-4b96-a79d-fcc3eb4ad6bf",
+		"name": "azure",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "14778554-aa1ee845-26e4-4b96-a79d-fcc3eb4ad6bf"
+	},
+	"item": [
+		{
+			"name": "cm-eu-cmptools-dev-Job-MonthlyBilling5-CustomServiceSubscriptionBilling",
+			"id": "a3193d15-0198-4f4e-9c31-3838f9376e49",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {
+					"connection": true,
+					"accept-encoding": true,
+					"accept": true,
+					"user-agent": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-functions-key",
+						"value": "zbwKbDTdyOb1AW7doTSMF059rRv2f2hSNVYTxaEC12gkq9Wk7txr6A==",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"input\": \"test\" } "
+				},
+				"url": {
+					"raw": "https://cm-eu-cmptools-dev.azurewebsites.net/admin/functions/Job-MonthlyBilling5-CustomServiceSubscriptionBilling",
+					"protocol": "https",
+					"host": [
+						"cm-eu-cmptools-dev",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"admin",
+						"functions",
+						"Job-MonthlyBilling5-CustomServiceSubscriptionBilling"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cop-eu-cmp-cmptools-dev-Job-MonthlyBilling5-CustomServiceSubscriptionBilling Copy",
+			"id": "cefb2bac-1b25-48e8-af16-3a7b65da5c20",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {
+					"connection": true,
+					"accept-encoding": true,
+					"accept": true,
+					"user-agent": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-functions-key",
+						"value": "xeWf6aGmuRISmDV4vRCOniociivKaBTrSaFT9OkcQobTT8KS/aj1ww==",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"input\": \"test\" }"
+				},
+				"url": {
+					"raw": "https://cop-eu-cmp-cmptools-dev.azurewebsites.net/admin/functions/Job-MonthlyBilling5-CustomServiceSubscriptionBilling",
+					"protocol": "https",
+					"host": [
+						"cop-eu-cmp-cmptools-dev",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"admin",
+						"functions",
+						"Job-MonthlyBilling5-CustomServiceSubscriptionBilling"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cm-eu-cmptools-pr (old) 123e",
+			"id": "69a969cb-15ac-4be6-8269-f3cb822421e1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {
+					"connection": true,
+					"accept-encoding": true,
+					"accept": true,
+					"user-agent": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-functions-key",
+						"value": "HtAk1dltVfxTnQ4EkeIMxQwpwgFpVYPPB1OR9aauBNBNbitcbe24nw==",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"input\": \"test\" }"
+				},
+				"url": {
+					"raw": "https://cm-eu-cmptools-pr.azurewebsites.net/admin/functions/Job-MonthlyBilling5-CustomServiceSubscriptionBilling?key=123",
+					"protocol": "https",
+					"host": [
+						"cm-eu-cmptools-pr",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"admin",
+						"functions",
+						"Job-MonthlyBilling5-CustomServiceSubscriptionBilling"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
